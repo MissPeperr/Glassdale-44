@@ -1,0 +1,21 @@
+.criminalsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.criminal__card {
+    border: 1px goldenrod dotted;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: .5em;
+}
+
+.criminal__card-content {
+    margin-left: .5em;
+}
+.criminal__card-content p, h3 {
+    margin
+}
