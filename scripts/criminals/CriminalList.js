@@ -3,11 +3,11 @@
     Responsiblity: This module is responsible for using the criminal data, turning each criminal object into HTML, and putting that HTML on the DOM.
 */
 
-import { useCriminals, getCriminals } from "./CriminalDataProvider.js"
+import { useCriminals, getCriminals } from "./CriminalProvider.js"
 import { CriminalHTML } from "./CriminalHTML.js"
 
 export const CriminalList = () => {
-    // Get a reference to the element where we want to pur out list of criminals
+    // Get a reference to the DOM element where we want to render our list of criminals
     const criminalContainer = document.querySelector(".criminalsContainer")
 
     // We have to get the criminals first before we can use them

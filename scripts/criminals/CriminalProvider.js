@@ -1,3 +1,8 @@
+/*
+    Author: Madi Peper
+    Responsibility: This module is responsible for maintaining the data for Criminals
+*/
+
 let criminals = []
 
 export const useCriminals = () => {
